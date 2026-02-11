@@ -143,7 +143,6 @@ def run_assignment():
     # 1. Keys (Save/Load) 
     caesar_key = 3
     playfair_key = "MONARCHY"
-    # Hill key from PDF example [cite: 76]
     hill_key = np.array([[6, 24, 1], [13, 16, 10], [20, 17, 15]]) 
     
     save_file("key_caesar.txt", caesar_key)
